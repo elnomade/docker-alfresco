@@ -8,6 +8,6 @@ echo "trashcan.cleaner.protected.day=1" >>  "/opt/alfresco/tomcat/shared/classes
 echo "trashcan.cleaner.cron=0 0 4 * * ?" >> "/opt/alfresco/tomcat/shared/classes/alfresco-global.properties"
 echo "trashcan.cleaner.pagelen=5" >> "/opt/alfresco/tomcat/shared/classes/alfresco-global.properties"
 # disabling deleted content being copied to ContentStore.deleted
-mv /disable-delbackup-context.xml /opt/alfresco/tomcat/shared/classes/alfresco/extension
+mv /opt/setup/disable-delbackup-context.xml /opt/alfresco/tomcat/shared/classes/alfresco/extension
 
 
